@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .search-icon img {
+    max-width: 19%;
+    height: auto;
+    display: block;
+  }
+  /*Navbar*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    flex-grow: 1;
+    align-items: cente
+  }
+  
+  .logo img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: whitesmoke;
+    color: rgb(63, 63, 125);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  
+
+
+ /*Conteainer */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px; 
+    margin-right: 20px
+  }
+  
+  .left-content h1 {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+  
+
+  }
+ .emoji img{
+  max-width: 15%;
+ }
+ .left-content p img {
+  max-width: 12%;
+ }
+  
+  .left-content p {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
+
+
+
+  .social-icon {
+   
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .social-icon img {
+    /*display: block;/*/
+    width: 50px;
+    height: 50px;
+    
+  }
+  
+  
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+ 
+  
+  .read-more-button {
+    background-color: blue;
+    color: white;
+    
+    padding: 10px 20px; 
+    margin-top: 3%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-content {
+    flex: 1;
+    background-image: url('https://kamsoft.co/assets/images/design-uiux-services.gif');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .left-content, .right-content {
+      flex: none;
+    }
+  }
+
+
+  
+
+
+ 
+/*Proficiency-Bar*/
+  .proficiency-container {
+    width: 80%;
+    max-width: 100%;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .skill-name {
+    flex: 1;
+  }
+  
+  .skill-bar {
+    height: 20px;
+    border-radius: 10px;
+    background-color:white;
+    position: relative;
+  }
+  
+  .skill-level {
+    height: 100%;
+    border-radius: 8px;
+    background-color: #4caf50;
+  }
+
+  .project-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .project-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-details {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    color: #555;
+    line-height: 1.6;
+  }
+  .Project_button{
+    color: white;
+    background-color: blue;
+    border-radius: 20%;
+    
+  }
+
+
+
+ 
+  /*Achievements and certificates */
+  .achievements {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .achievement {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .achievement img {
+    max-width: 100px;
+  }
+  
+  .achievement h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .achievement p {
+    margin-top: 10px;
+  }
+  
+  .achievement a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .achievement {
+      width: 100%;
+    }
+  }
+
+  
+  /*Contact Form */
+.containerr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/*Footer*/
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .footer {
+      position: static;
+  }
+}
